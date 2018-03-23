@@ -107,14 +107,16 @@ function preload(){
 
 function setup() {
 
-  createCanvas(1000,400);
-  background(200);
+  createCanvas(1005,400);
+  background(255);
 
   line(0,66,1000,66);
   line(0,132,1000,132);
   line(0,198,1000,198);
   line(0,264,1000,264);
   line(0,330,1000,330);
+
+
   var i = 0;
 
   for (var key1 in data1["Time Series (Daily)"])
@@ -139,9 +141,6 @@ function setup() {
     i++;
   }
 
-  console.log(musique1);
-  console.log(musique2);
-  //console.log(musique3);
 
   min = Math.min(...musique1);
   max = Math.max(...musique1);
@@ -157,7 +156,6 @@ function setup() {
   step8 = step7+pas;
   step9 = step8+pas;
   step10 = step9+pas;
-
 }
 
 var bob = 0;
@@ -278,7 +276,8 @@ function playnote1(){
     transp = 0;
   }
 
-  fill(0);
+  fill(255,40,0);
+  noStroke();
   ellipse(10*temps, hauteur1, transp*10, transp*10);
 
 }
@@ -366,7 +365,8 @@ function playnote2(){
     transp = 0;
   }
 
-    fill(255,0,0);
+    fill(40,170,160);
+    noStroke();
     ellipse(10*temps, hauteur2, transp*10, transp*10);
 
 }
@@ -456,7 +456,8 @@ function playnote3(){
     transp = 0;
   }
 
-    fill(0,255,0);
+    fill(166,33,111);
+    noStroke();
     ellipse(10*temps, hauteur3, transp*10, transp*10);
 
 }
