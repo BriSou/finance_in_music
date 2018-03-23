@@ -1,0 +1,70 @@
+html{
+    margin: 10px;
+}
+
+.footer{
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  font-family: "Futura-medium", sans-serif;
+  font-size: 15;
+  font-weight: bold;
+
+}
+
+#f{
+  color: rgb(166,33,111) ;
+}
+#m{
+  color: RGB(40,170,160);
+}
+
+#a{
+  color: RGB(255,40,0) ;
+}
+/*
+.droite{
+  display: block;
+  position: fixed;
+  right: 5px;
+  width: 50px;
+  font-family: "Futura-medium", sans-serif;
+  font-size: 9;
+  font-weight:;
+}
+
+#min{
+
+}
+
+#t1{
+  height: 100px ;
+  right: 5px;
+}
+#t2{
+  color: RGB(255,40,0) ;
+}
+#t3{
+  color: RGB(255,40,0) ;
+}
+#t4{
+  color: RGB(255,40,0) ;
+}
+#t5{
+  color: RGB(255,40,0) ;
+}
+#t6{
+  color: RGB(255,40,0) ;
+}
+#t7{
+  color: RGB(255,40,0) ;
+}*/
+#t8{
+  color: RGB(255,40,0) ;
+}
+#t9{
+  color: RGB(255,40,0) ;
+}
+#t10{
+  color: RGB(255,40,0) ;
+}
